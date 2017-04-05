@@ -3,7 +3,7 @@ var form = document.querySelector('form');
 form.addEventListener('submit', function(e) {
 	e.preventDefault();
 
-// Insert fetch data method bellow
+// Insert post method bellow
 
-// Insert fetch data method above
+// Insert post method above
 });

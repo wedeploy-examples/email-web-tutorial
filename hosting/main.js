@@ -3,6 +3,7 @@ var form = document.querySelector('form');
 form.addEventListener('submit', function(e) {
 	e.preventDefault();
 
+// Insert post method bellow
 	WeDeploy
 		.url('email.tutorial-email-web.wedeploy.io/emails')
 		.auth('7d173abf-e5cf-4210-8e75-9fdd18ebb727')
@@ -24,4 +25,5 @@ form.addEventListener('submit', function(e) {
 		.catch(function(error) {
 			alert('Oops, some error has happened.');
 		});
+// Insert post method above
 });

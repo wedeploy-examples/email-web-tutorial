@@ -4,12 +4,12 @@ form.addEventListener('submit', function(e) {
 	e.preventDefault();
 
 	WeDeploy
-		.url(`email.${DOMAIN}`)
-		.auth('0000000-0000-000-0000-0000000')
+		.url('email.tutorial-email-web.wedeploy.io/emails')
+		.auth('7d173abf-e5cf-4210-8e75-9fdd18ebb727')
 		.form('from', form.from.value)
 		.form('to', form.to.value)
 		.form('subject', form.subject.value)
-		.form('message', form.subject.value)
+		.form('message', form.message.value)
 		.post()
 		.then(function(response) {
 			if (response.succeeded()) {

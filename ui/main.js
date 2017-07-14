@@ -5,8 +5,8 @@ form.addEventListener('submit', function(e) {
 
 // Insert post method below
 	WeDeploy
-		.url('email.tutorial-email-web.wedeploy.io/emails')
-		.auth('7d173abf-e5cf-4210-8e75-9fdd18ebb727')
+		.url('email-tutorialemailweb.wedeploy.sh/emails')
+		.auth('d5c7c65c-71e7-4a48-896a-27a8eef3f4ca')
 		.form('from', form.from.value)
 		.form('to', form.to.value)
 		.form('subject', form.subject.value)
